@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LevelUpZone</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <i
+                class="fa fa-laptop-code fa-2x text-primary position-absolute top-50 start-50 translate-middle"
+            ></i>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Brand & Contact Start -->
+        <div class="container-fluid py-4 px-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row align-items-center top-bar">
+                <div class="col-lg-4 col-md-12 text-center text-lg-start">
+                    <a href="" class="navbar-brand m-0 p-0">
+                        <h1 class="fw-bold text-primary m-0">
+                            <i class="fa fa-laptop-code me-3"></i>LevelUpZone
+                        </h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                </div>
+                <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                    <div class="row">
+                        <div class="col-4">
+                            <div
+                                class="d-flex align-items-center justify-content-end"
+                            >
+                                <div
+                                    class="flex-shrink-0 btn-lg-square border rounded-circle"
+                                >
+                                    <i class="far fa-clock text-primary"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <p class="mb-2">Opening Hour</p>
+                                    <h6 class="mb-0">Mon - Fri, 8:00 - 9:00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div
+                                class="d-flex align-items-center justify-content-end"
+                            >
+                                <div
+                                    class="flex-shrink-0 btn-lg-square border rounded-circle"
+                                >
+                                    <i class="fa fa-phone text-primary"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <p class="mb-2">Call Us</p>
+                                    <h6 class="mb-0">+12016367588</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div
+                                class="d-flex align-items-center justify-content-end"
+                            >
+                                <div
+                                    class="flex-shrink-0 btn-lg-square border rounded-circle"
+                                >
+                                    <i class="far fa-envelope text-primary"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <p class="mb-2">Email Us</p>
+                                    <h6 class="mb-0">
+                                        level_up_zone@gmail.com
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Brand & Contact End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="#" class="navbar-brand ms-3 d-lg-none">MENU</a>
+            <button
+                type="button"
+                class="navbar-toggler me-3"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto p-3 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="index.html#about" class="nav-item nav-link"
+                        >About Us</a
+                    >
+                    <a href="index.html#service" class="nav-item nav-link"
+                        >Services</a
+                    >
+                    <a href="index.html#project" class="nav-item nav-link"
+                        >Team</a
+                    >
+                    <a href="index.html#contact" class="nav-item nav-link"
+                        >Contact Us</a
+                    >
+                </div>
+                <a
+                    href="index.html#about"
+                    class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block"
+                    >Get Started</a
+                >
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#header-carousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    >
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#header-carousel"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    >
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#header-carousel"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    >
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-3.jpg"
+                            alt="Image"
+                        />
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase mb-4 animated zoomIn"
+                                >
+                                    Explore the Most Anticipated Computer Game
+                                    Releases Coming Soon
+                                </h4>
+                                <h1
+                                    class="display-1 text-white mb-0 animated zoomIn"
+                                >
+                                    Stay Ahead of the Game
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase mb-4 animated zoomIn"
+                                >
+                                    In-Depth Reviews of the Top Trending
+                                    Computer Games
+                                </h4>
+                                <h1
+                                    class="display-1 text-white mb-0 animated zoomIn"
+                                >
+                                    Find Your Next Favorite
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-3.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase mb-4 animated zoomIn"
+                                >
+                                    Essential Gear and Accessories to Upgrade
+                                    Your Gaming Experience
+                                </h4>
+                                <h1
+                                    class="display-1 text-white mb-0 animated zoomIn"
+                                >
+                                    Equip Yourself for Success
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i
+                                class="fa fa-certificate fa-4x text-primary mb-4"
+                            ></i>
+                            <h5 class="mb-3">Years Experience</h5>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                12
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i
+                                class="fa fa-users-cog fa-4x text-primary mb-4"
+                            ></i>
+                            <h5 class="mb-3">Team Members</h5>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                34
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i class="fa fa-users fa-4x text-primary mb-4"></i>
+                            <h5 class="mb-3">Satisfied Clients</h5>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                2264
+                            </h1>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="fact-item bg-light rounded text-center h-100 p-5"
+                        >
+                            <i class="fa fa-check fa-4x text-primary mb-4"></i>
+                            <h5 class="mb-3">Projects Done</h5>
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">
+                                741
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="img-border">
+                            <img class="img-fluid" src="img/about.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <h6
+                                class="section-title bg-white text-start text-primary pe-3"
+                            >
+                                About Us
+                            </h6>
+                            <h1 class="display-6 mb-4">
+                                Discover Our Passion for Computer Games:
+                                <span class="text-primary">Your Ultimate </span>
+                                Gaming Destination
+                            </h1>
+                            <p>
+                                Welcome to our hub dedicated to the world of
+                                computer games, where our passion for gaming
+                                shines through in everything we do. We are a
+                                community of avid gamers and industry
+                                enthusiasts committed to providing you with the
+                                latest updates, insightful reviews, and
+                                essential gaming resources. Our mission is to
+                                enhance your gaming experience by offering
+                                comprehensive coverage of upcoming releases,
+                                detailed game reviews, and recommendations for
+                                the best gear to optimize your setup.
+                            </p>
+                            <p class="mb-4">
+                                Whether you're a casual player or a dedicated
+                                gamer, our space is designed to keep you
+                                informed and engaged with the ever-evolving
+                                gaming landscape. We aim to be your go-to source
+                                for all things gaming, offering a wealth of
+                                information to help you make the most of your
+                                time in virtual worlds. Join us on this exciting
+                                journey and stay ahead in the gaming community
+                                with our expert insights and resources
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Services
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Explore Our Comprehensive Gaming Services: From Game
+                        Reviews to Equipment Guides
+                    </h1>
+                    <p>
+                        At our gaming hub, we offer a range of services designed
+                        to enhance your gaming experience and keep you at the
+                        forefront of the gaming world. Our services cover
+                        everything from in-depth game reviews and release
+                        forecasts to recommendations for top-tier gaming gear.
+                        Whether you're looking to stay updated on the latest
+                        game releases, find the best accessories for your setup,
+                        or get expert advice on game strategies, we've got you
+                        covered. Our goal is to provide you with valuable
+                        insights and resources that will help you make informed
+                        decisions and fully enjoy your gaming adventures.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-1.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">
+                                Detailed Game Reviews and Ratings
+                            </h4>
+                        </a>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-2.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">
+                                In-Depth Guides on Game Strategies and Tips
+                            </h4>
+                        </a>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-3.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">
+                                Recommendations for Gaming Gear and Accessories
+                            </h4>
+                        </a>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-4.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">
+                                Expert Advice on Gaming Trends and News
+                            </h4>
+                        </a>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-5.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">
+                                Personalized Gaming Experience Consultations
+                            </h4>
+                        </a>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <a
+                            class="service-item d-block rounded text-center h-100 p-4"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid rounded mb-4"
+                                src="img/service-6.jpg"
+                                alt=""
+                            />
+                            <h4 class="mb-0">
+                                Community Engagement and Gaming Events
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="h-100">
+                            <h6
+                                class="section-title bg-white text-start text-primary pe-3"
+                            >
+                                Why Choose Us
+                            </h6>
+                            <h1 class="display-6 mb-4">
+                                Why Our Gaming Hub Stands Out: Top Reasons to
+                                Choose Us for Your Gaming Needs
+                            </h1>
+                            <p class="mb-4">
+                                Our gaming hub is your ultimate destination for
+                                all things related to computer games, offering a
+                                wealth of resources and expertise that set us
+                                apart. We are dedicated to providing the best
+                                experience for gamers by delivering accurate
+                                game reviews, timely updates on upcoming
+                                releases, and valuable insights into the latest
+                                gaming trends. Our commitment to quality,
+                                community engagement, and personalized support
+                                ensures that you get the most out of your gaming
+                                experience. Here’s why you should choose us as
+                                your go-to source for gaming information and
+                                resources:
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="skill">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                        >
+                                            <p class="mb-2">
+                                                Expert Reviews and In-Depth
+                                                Analysis
+                                            </p>
+                                            <p class="mb-2">85%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div
+                                                class="progress-bar bg-primary"
+                                                role="progressbar"
+                                                aria-valuenow="85"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="skill">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                        >
+                                            <p class="mb-2">
+                                                Up-to-Date Information on
+                                                Upcoming Releases
+                                            </p>
+                                            <p class="mb-2">90%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div
+                                                class="progress-bar bg-primary"
+                                                role="progressbar"
+                                                aria-valuenow="90"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="skill">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                        >
+                                            <p class="mb-2">
+                                                Comprehensive Gear
+                                                Recommendations and Tips
+                                            </p>
+                                            <p class="mb-2">95%</p>
+                                        </div>
+                                        <div class="progress">
+                                            <div
+                                                class="progress-bar bg-primary"
+                                                role="progressbar"
+                                                aria-valuenow="95"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="img-border">
+                            <img
+                                class="img-fluid"
+                                src="img/feature.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Project Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Our Projects
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Explore Our Exciting Gaming Projects: Innovative
+                        Initiatives and Collaborations
+                    </h1>
+                    <p>
+                        At our gaming hub, we are dedicated to pushing the
+                        boundaries of the gaming experience through a variety of
+                        innovative projects and collaborations. Our projects
+                        span across game development, community engagement, and
+                        technology advancements, all aimed at enhancing the
+                        gaming world. From developing new game concepts and
+                        hosting engaging events to exploring cutting-edge
+                        technologies and supporting gamer communities, we are
+                        committed to bringing you the best in gaming. Discover
+                        the diverse range of projects that showcase our passion
+                        and dedication to advancing the gaming industry.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel project-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="01"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-1.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-1.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Next-Gen Game Development Initiative</h6>
+                        <span>
+                            We are working on groundbreaking game development
+                            projects that push the boundaries of graphics and
+                            gameplay mechanics. Stay tuned for immersive
+                            experiences that redefine the gaming
+                            landscape.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="02"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-2.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-2.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Virtual Reality Gaming Experiences</h6>
+                        <span>
+                            Explore new dimensions of gaming with our virtual
+                            reality projects. We’re creating VR experiences that
+                            offer unprecedented immersion and interactivity,
+                            bringing games to life like never before.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="03"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-3.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-2.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Gaming Community Engagement Programs</h6>
+                        <span>
+                            Our initiatives focus on building and nurturing a
+                            vibrant gaming community. Participate in our events,
+                            tournaments, and discussions to connect with fellow
+                            gamers and share your passion.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="04"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-4.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-4.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Innovative Game Mechanics Research</h6>
+                        <span>
+                            We are researching and developing innovative game
+                            mechanics to enhance player engagement. Our projects
+                            aim to introduce unique gameplay elements that
+                            provide fresh and exciting challenges.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="05"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-5.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-5.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Cutting-Edge Gaming Hardware Collaboration</h6>
+                        <span>
+                            Partnering with hardware experts to create advanced
+                            gaming peripherals that enhance performance and
+                            comfort. Our projects aim to deliver the best tools
+                            for an optimal gaming experience.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="06"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-6.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-6.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Comprehensive Game Review Platform</h6>
+                        <span>
+                            Developing a comprehensive platform for detailed
+                            game reviews and ratings. Our project aims to
+                            provide gamers with reliable and insightful reviews
+                            to guide their gaming choices.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="07"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-7.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-7.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Interactive Game Design Workshops</h6>
+                        <span>
+                            Hosting workshops to teach aspiring game designers
+                            the ins and outs of game creation. Learn from
+                            industry professionals and gain hands-on experience
+                            in game design and development.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="08"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-8.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-8.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Advanced Gaming Analytics Tools</h6>
+                        <span>
+                            Creating sophisticated analytics tools to help
+                            gamers track their performance and progress. Our
+                            project focuses on providing detailed insights and
+                            metrics to improve gameplay strategies.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="09"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-9.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-9.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Gamification of Learning Experiences</h6>
+                        <span>
+                            Integrating gaming elements into educational content
+                            to make learning more engaging. Our project aims to
+                            develop educational games that combine fun and
+                            learning in innovative ways.</span
+                        >
+                    </div>
+                    <div
+                        class="project-item border rounded h-100 p-4"
+                        data-dot="10"
+                    >
+                        <div class="position-relative mb-4">
+                            <img
+                                class="img-fluid rounded"
+                                src="img/project-10.jpg"
+                                alt=""
+                            />
+                            <a href="img/project-10.jpg" data-lightbox="project"
+                                ><i class="fa fa-eye fa-2x"></i
+                            ></a>
+                        </div>
+                        <h6>Cross-Platform Gaming Solutions</h6>
+                        <span>
+                            Developing solutions that enable seamless gaming
+                            experiences across different platforms. Our project
+                            aims to ensure that gamers can enjoy their favorite
+                            games on any device without interruptions.</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Our Team
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Meet Our Dedicated Team: The Experts Behind Our Gaming
+                        Innovations
+                    </h1>
+
+                    <p>
+                        Our team is composed of passionate and skilled
+                        professionals dedicated to advancing the world of
+                        computer games. Each member brings a unique set of
+                        skills and expertise to the table, contributing to our
+                        innovative projects and initiatives. From game
+                        developers and designers to community managers and tech
+                        experts, our team works collaboratively to deliver
+                        exceptional gaming experiences and support our vibrant
+                        gaming community. Get to know the talented individuals
+                        who drive our projects forward and make our vision a
+                        reality.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item text-center p-4">
+                            <img
+                                class="img-fluid border rounded-circle w-75 p-2 mb-4"
+                                src="img/team-1.jpg"
+                                alt=""
+                            />
+                            <div class="team-text">
+                                <div class="team-title">
+                                    <h5>Alex Turner</h5>
+                                    <span>Game Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item text-center p-4">
+                            <img
+                                class="img-fluid border rounded-circle w-75 p-2 mb-4"
+                                src="img/team-2.jpg"
+                                alt=""
+                            />
+                            <div class="team-text">
+                                <div class="team-title">
+                                    <h5>Anna Lee</h5>
+                                    <span>Community Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item text-center p-4">
+                            <img
+                                class="img-fluid border rounded-circle w-75 p-2 mb-4"
+                                src="img/team-3.jpg"
+                                alt=""
+                            />
+                            <div class="team-text">
+                                <div class="team-title">
+                                    <h5>Morgan Patel</h5>
+                                    <span>Gaming Hardware Specialist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Testimonial
+                    </h6>
+                    <h1 class="display-6 mb-4">What Our Clients Say!</h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                class="flex-shrink-0 rounded-circle border p-1"
+                                src="img/testimonial-1.jpg"
+                                alt=""
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Jordan Matthews</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "Working with this team has been an exceptional
+                            experience. Their in-depth game reviews and previews
+                            have become my go-to source for discovering new
+                            games. I particularly appreciate their detailed
+                            analysis and honest opinions, which have helped me
+                            make informed decisions on what to play next. Their
+                            commitment to providing accurate and comprehensive
+                            information is truly commendable."
+                        </p>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                class="flex-shrink-0 rounded-circle border p-1"
+                                src="img/testimonial-2.jpg"
+                                alt=""
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Riley Thompson</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "I’ve been impressed by the level of expertise and
+                            dedication this team brings to the gaming community.
+                            The personalized gaming experience consultations
+                            have been incredibly helpful in optimizing my setup
+                            and finding the right gear. Their recommendations
+                            are spot-on, and the community engagement events
+                            they organize make for a fantastic and interactive
+                            experience."
+                        </p>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                class="flex-shrink-0 rounded-circle border p-1"
+                                src="img/testimonial-3.jpg"
+                                alt=""
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Taylor Brooks</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "The virtual reality gaming experiences provided by
+                            this team are second to none. I was blown away by
+                            the immersive quality and the attention to detail in
+                            their VR projects. Their ability to create such
+                            engaging and realistic experiences has elevated my
+                            gaming sessions to a whole new level. I highly
+                            recommend their VR offerings to any gaming
+                            enthusiast."
+                        </p>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                class="flex-shrink-0 rounded-circle border p-1"
+                                src="img/testimonial-4.jpg"
+                                alt=""
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Casey Rivera</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "I’ve benefited greatly from the comprehensive
+                            guides and strategies offered by this team. Their
+                            in-depth game mechanics research and tips have
+                            significantly improved my gameplay. Whether you’re a
+                            beginner or a seasoned player, their expert advice
+                            and strategies are invaluable for mastering any
+                            game. Their dedication to enhancing player skills is
+                            evident and greatly appreciated."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Contact Us
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        If You Have Any Query, Please Feel Free Contact Us
+                    </h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <p class="text-center mb-4">
+                            We’re here to help with any questions, comments, or
+                            feedback you may have. Whether you’re seeking more
+                            information about our gaming projects, need support
+                            with a specific issue, or simply want to get in
+                            touch with our team, we welcome your inquiries.
+                        </p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Your Name"
+                                        />
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Your Email"
+                                        />
+                                        <label for="email">Your Email</label>
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Subject"
+                                        />
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Leave a message here"
+                                            id="message"
+                                            style="height: 200px"
+                                        ></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button
+                                        class="btn btn-primary rounded-pill py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-5">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110583.70090545446!2d-74.0963268615099!3d40.80592041379055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f9eaff276e9b%3A0x686c6eeb9a97c58f!2sActivate%20-%20New%20Jersey%20(American%20Dream)!5e0!3m2!1suk!2sua!4v1723554957107!5m2!1suk!2sua"
+                            width="100%"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">LevelUpZone</h5>
+                        <p class="mb-2">
+                            Stay connected and informed with our gaming hub. Our
+                            footer provides quick access to essential links,
+                            including information about our latest projects,
+                            gaming services, and team. Find links to our social
+                            media profiles, where you can join the conversation
+                            and keep up with the latest updates and events.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Address</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>1 American
+                            Dream Wy Level 1 Space A156, East Rutherford, NJ
+                            07073, US
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+12016367588
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >level_up_zone@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Quick Links</h5>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="index.html#about"
+                            >About Us</a
+                        >
+                        <a class="btn btn-link" href="index.html#contact"
+                            >Contact Us</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Terms & Condition</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy Policy</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
